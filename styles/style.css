@@ -1,0 +1,73 @@
+body {
+  background-color: rgb(194, 189, 189);
+
+  /* color: white; */
+  font-family: arial;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  background-color: rgb(1, 1, 27);
+  width: 600px;
+  height: 400px;
+  color: white;
+  padding: 40px 10px;
+  margin-top: 50px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding-bottom: 60px;
+}
+
+.btn-icon {
+  margin-top: 20px;
+  background-color: transparent;
+  border: 4px solid white;
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.move-icon {
+  width: 70px;
+}
+.reset-btn {
+  background-color: rgb(85, 2, 2);
+  color: white;
+  font-weight: bold;
+  width: 150px;
+  height: 50px;
+  font-size: 18px;
+  border: 2px solid rgb(201, 188, 73);
+  border-radius: 12px;
+  cursor: pointer;
+}
+.auto-play-btn {
+  background-color: rgb(201, 188, 73);
+  color: white;
+  font-weight: bold;
+  width: 150px;
+  height: 50px;
+  font-size: 18px;
+  border: 2px solid rgb(85, 2, 2);
+  border-radius: 12px;
+  cursor: pointer;
+  margin-left: 20px;
+}
+.moves {
+  width: 40px;
+}
+.css-score {
+  font-size: 20px;
+  font-family: arial;
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+.result-css {
+  font-size: 20px;
+  font-family: arial;
+  font-weight: bold;
+}
